@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "font-blur"
+version = "0.1.0"
+description = ""
+authors = ["Chris West (Faux) <git@goeswhere.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.2.0"
+jupyter = "^1.1.1"
+pillow = "^11.0.0"
+matplotlib = "^3.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
